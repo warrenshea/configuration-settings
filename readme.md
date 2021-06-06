@@ -9,7 +9,6 @@
 * https://packagecontrol.io/packages/Origami
 * https://packagecontrol.io/packages/RainbowBrackets
 * https://packagecontrol.io/packages/BracketHighlighter
-* https://packagecontrol.io/packages/SFTP
 
 ```json
 {
