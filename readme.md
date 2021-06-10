@@ -1,6 +1,6 @@
-# Warren Shea's Configuration Settings, Packages, Chrome Extensions
+# Warren Shea's Desert Island Web Development Tools - Configuration Settings, Packages, Chrome Extensions
 
-## Sublime Text 3
+## Sublime Text 4
 
 ### Packages
 * https://packagecontrol.io/packages/Package Control
@@ -53,3 +53,8 @@
 * requests
 * selenium
 * xlsxWriter
+
+## Chrome
+
+### Extensions
+* Pesticide
