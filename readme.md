@@ -47,9 +47,9 @@
 ## Python 3
 
 ### Packages
-beautifulsoup4
-bs4
-pip
-requests
-selenium
-XlsxWriter
+* beautifulsoup4
+* bs4
+* pip
+* requests
+* selenium
+* xlsxWriter
