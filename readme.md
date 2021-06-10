@@ -1,5 +1,8 @@
-# Warren's Configuration Settings and shortcuts for IDEs
+# Warren Shea's Configuration Settings, Packages, Chrome Extensions
 
+## Sublime Text 3
+
+### Packages
 * https://packagecontrol.io/packages/Package Control
 * https://packagecontrol.io/packages/HTML-CSS-JS Prettify
 * https://packagecontrol.io/packages/Increment Selection
@@ -10,6 +13,7 @@
 * https://packagecontrol.io/packages/RainbowBrackets
 * https://packagecontrol.io/packages/BracketHighlighter
 
+### Configuration Settings
 ```json
 {
   "auto_complete_commit_on_tab": false,
@@ -40,3 +44,12 @@
   "trim_trailing_white_space_on_save": true
 }
 ```
+## Python 3
+
+### Packages
+beautifulsoup4
+bs4
+pip
+requests
+selenium
+XlsxWriter
