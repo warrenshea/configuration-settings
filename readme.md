@@ -1,4 +1,4 @@
-# Warren Shea's Desert Island Web Development Tools - Configuration Settings, Packages, Chrome Extensions
+# Warren Shea's "Stranded on a Desert Island Web Development Tools" - Configuration Settings, Packages, Chrome Extensions
 
 ## Sublime Text 4
 
