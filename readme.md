@@ -1,6 +1,6 @@
 # Warren Shea's "Stranded on a Desert Island Web Development Tools" - Configuration Settings, Packages, Chrome Extensions
 
-## Sublime Text 4
+## Sublime Text 4 (Registered)
 
 ### Packages
 * https://packagecontrol.io/packages/Package Control
@@ -58,3 +58,12 @@
 
 ### Extensions
 * Pesticide
+
+## Mac OSX
+* Karabiner Elements
+* iTerm2 + Oh My ZSH
+  * bullet-train-custom.zsh-theme
+  * .zshrc
+    * ZSH_THEME = "bullet-train-custom"
+    * Font - Menlo + Select Use built-in powerline gylph
+* Transmit 5
