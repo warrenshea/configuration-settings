@@ -61,6 +61,74 @@
 
 ## Mac OSX
 * Karabiner Elements
+```
+"rules": [
+    {
+        "description": "Home to Command Left",
+        "manipulators": [{
+                "from": { "key_code": "home" },
+                "to": [ { "key_code": "left_arrow", "modifiers": ["left_command"] }],
+                "type": "basic"
+        }]
+    },
+    {
+        "description": "Home to Command Left (SHIFT VERSION)",
+        "manipulators": [{
+                "from": { "key_code": "home", "modifiers": { "mandatory": [ "left_shift" ]}},
+                "to": [{ "key_code": "left_arrow", "modifiers": ["left_command","left_shift"] }],
+                "type": "basic"
+        }]
+    },
+    {
+        "description": "Home to Command Up",
+        "manipulators": [{
+                "from": { "key_code": "home", "modifiers": { "mandatory": [ "left_command" ]}},
+                "to": [{ "key_code": "up_arrow", "modifiers": ["left_command"] }],
+                "type": "basic"
+        }]
+    },
+    {
+        "description": "Home to Command Up (SHIFT VERSION)",
+        "manipulators": [{
+                "from": { "key_code": "home", "modifiers": { "mandatory": [ "left_command", "left_shift" ]}},
+                "to": [ { "key_code": "up_arrow", "modifiers": ["left_command","left_shift"] }],
+                "type": "basic"
+        }]
+    },
+    {
+        "description": "End to Command Left",
+        "manipulators": [{
+                "from": { "key_code": "end" },
+                "to": [{ "key_code": "right_arrow", "modifiers": ["left_command"] }],
+                "type": "basic"
+        }]
+    },
+    {
+        "description": "End to Command Left (SHIFT VERSION)",
+        "manipulators": [{
+                "from": { "key_code": "end", "modifiers": { "mandatory": [ "left_shift" ]}},
+                "to": [{ "key_code": "right_arrow", "modifiers": ["left_command","left_shift"] }],
+                "type": "basic"
+        }]
+    },
+    {
+        "description": "End to Command Down",
+        "manipulators": [{
+                "from": { "key_code": "end", "modifiers": { "mandatory": [ "left_command" ]}},
+                "to": [{ "key_code": "down_arrow", "modifiers": ["left_command"] }],
+                "type": "basic"
+        }]
+    },
+    {
+        "description": "End to Command Down (SHIFT VERSION)",
+        "manipulators": [{
+                "from": { "key_code": "end", "modifiers": { "mandatory": [ "left_command", "left_shift" ]}},
+                "to": [{ "key_code": "down_arrow", "modifiers": ["left_command","left_shift"] }],
+                "type": "basic"
+        }]
+    }
+]
+```
 * iTerm2 + Oh My ZSH
   * bullet-train-custom.zsh-theme
   * .zshrc
