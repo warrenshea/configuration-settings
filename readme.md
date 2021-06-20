@@ -56,6 +56,9 @@
 
 ## Chrome
 
+### Settings
+Settings > Perferences > Elements > [x] Show user agent shadow DOM
+
 ### Extensions
 * Pesticide
 
