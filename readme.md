@@ -54,6 +54,16 @@
 * selenium
 * xlsxWriter
 
+## Cmder
+```txt
+>""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:E:\local -cur_console:n
+""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:E:\local -cur_console:s1TVn
+""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:E:\local -cur_console:s1THn
+""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:E:\local -cur_console:s2THn
+""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:E:\local -cur_console:s3THn
+""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:E:\local -cur_console:s4THn
+```
+
 ## Chrome
 
 ### Settings
