@@ -82,7 +82,12 @@ Settings > Perferences > Elements > [x] Show user agent shadow DOM
         "manipulators": [{
                 "from": { "key_code": "home" },
                 "to": [ { "key_code": "left_arrow", "modifiers": ["left_command"] }],
-                "type": "basic"
+                "type": "basic",
+                "conditions": [{
+                    "bundle_identifiers": ["^com\\.apple\\.Terminal$","^com\\.googlecode\\.iterm2$","^com\\.sublimetext\\.3$","^com\\.sublimetext\\.4\\.plist$"],
+                    "type": "frontmost_application_unless"
+                }
+            ]
         }]
     },
     {
@@ -90,7 +95,12 @@ Settings > Perferences > Elements > [x] Show user agent shadow DOM
         "manipulators": [{
                 "from": { "key_code": "home", "modifiers": { "mandatory": [ "left_shift" ]}},
                 "to": [{ "key_code": "left_arrow", "modifiers": ["left_command","left_shift"] }],
-                "type": "basic"
+                "type": "basic",
+                "conditions": [{
+                    "bundle_identifiers": ["^com\\.apple\\.Terminal$","^com\\.googlecode\\.iterm2$","^com\\.sublimetext\\.3$","^com\\.sublimetext\\.4\\.plist$"],
+                    "type": "frontmost_application_unless"
+                }
+            ]
         }]
     },
     {
@@ -98,7 +108,12 @@ Settings > Perferences > Elements > [x] Show user agent shadow DOM
         "manipulators": [{
                 "from": { "key_code": "home", "modifiers": { "mandatory": [ "left_command" ]}},
                 "to": [{ "key_code": "up_arrow", "modifiers": ["left_command"] }],
-                "type": "basic"
+                "type": "basic",
+                "conditions": [{
+                    "bundle_identifiers": ["^com\\.apple\\.Terminal$","^com\\.googlecode\\.iterm2$","^com\\.sublimetext\\.3$","^com\\.sublimetext\\.4\\.plist$"],
+                    "type": "frontmost_application_unless"
+                }
+            ]
         }]
     },
     {
@@ -106,7 +121,12 @@ Settings > Perferences > Elements > [x] Show user agent shadow DOM
         "manipulators": [{
                 "from": { "key_code": "home", "modifiers": { "mandatory": [ "left_command", "left_shift" ]}},
                 "to": [ { "key_code": "up_arrow", "modifiers": ["left_command","left_shift"] }],
-                "type": "basic"
+                "type": "basic",
+                "conditions": [{
+                    "bundle_identifiers": ["^com\\.apple\\.Terminal$","^com\\.googlecode\\.iterm2$","^com\\.sublimetext\\.3$","^com\\.sublimetext\\.4\\.plist$"],
+                    "type": "frontmost_application_unless"
+                }
+            ]
         }]
     },
     {
@@ -114,7 +134,12 @@ Settings > Perferences > Elements > [x] Show user agent shadow DOM
         "manipulators": [{
                 "from": { "key_code": "end" },
                 "to": [{ "key_code": "right_arrow", "modifiers": ["left_command"] }],
-                "type": "basic"
+                "type": "basic",
+                "conditions": [{
+                    "bundle_identifiers": ["^com\\.apple\\.Terminal$","^com\\.googlecode\\.iterm2$","^com\\.sublimetext\\.3$","^com\\.sublimetext\\.4\\.plist$"],
+                    "type": "frontmost_application_unless"
+                }
+            ]
         }]
     },
     {
@@ -122,7 +147,12 @@ Settings > Perferences > Elements > [x] Show user agent shadow DOM
         "manipulators": [{
                 "from": { "key_code": "end", "modifiers": { "mandatory": [ "left_shift" ]}},
                 "to": [{ "key_code": "right_arrow", "modifiers": ["left_command","left_shift"] }],
-                "type": "basic"
+                "type": "basic",
+                "conditions": [{
+                    "bundle_identifiers": ["^com\\.apple\\.Terminal$","^com\\.googlecode\\.iterm2$","^com\\.sublimetext\\.3$","^com\\.sublimetext\\.4\\.plist$"],
+                    "type": "frontmost_application_unless"
+                }
+            ]
         }]
     },
     {
@@ -130,7 +160,12 @@ Settings > Perferences > Elements > [x] Show user agent shadow DOM
         "manipulators": [{
                 "from": { "key_code": "end", "modifiers": { "mandatory": [ "left_command" ]}},
                 "to": [{ "key_code": "down_arrow", "modifiers": ["left_command"] }],
-                "type": "basic"
+                "type": "basic",
+                "conditions": [{
+                    "bundle_identifiers": ["^com\\.apple\\.Terminal$","^com\\.googlecode\\.iterm2$","^com\\.sublimetext\\.3$","^com\\.sublimetext\\.4\\.plist$"],
+                    "type": "frontmost_application_unless"
+                }
+            ]
         }]
     },
     {
@@ -138,7 +173,12 @@ Settings > Perferences > Elements > [x] Show user agent shadow DOM
         "manipulators": [{
                 "from": { "key_code": "end", "modifiers": { "mandatory": [ "left_command", "left_shift" ]}},
                 "to": [{ "key_code": "down_arrow", "modifiers": ["left_command","left_shift"] }],
-                "type": "basic"
+                "type": "basic",
+                "conditions": [{
+                    "bundle_identifiers": ["^com\\.apple\\.Terminal$","^com\\.googlecode\\.iterm2$","^com\\.sublimetext\\.3$","^com\\.sublimetext\\.4\\.plist$"],
+                    "type": "frontmost_application_unless"
+                }
+            ]
         }]
     }
 ]
