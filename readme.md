@@ -74,6 +74,7 @@ Settings > Perferences > Elements > [x] Show user agent shadow DOM
 
 ## Mac OSX
 * Karabiner Elements
+/Users/$USERNAME/.config/karabiner/karabiner.json
 ```
 "rules": [
     {
