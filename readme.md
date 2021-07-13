@@ -56,12 +56,12 @@
 
 ## Cmder
 ```txt
->""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:E:\local -cur_console:n
-""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:E:\local -cur_console:s1TVn
-""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:E:\local -cur_console:s1THn
-""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:E:\local -cur_console:s2THn
-""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:E:\local -cur_console:s3THn
-""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:E:\local -cur_console:s4THn
+>""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:"E:\local\warrenshea.github.io-dev":t:"Commits" -cur_console:n
+""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:"E:\local\warrenshea.github.io-dev":t:"Local Environment" -cur_console:s1TVn
+""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:"E:\local\warrenshea.github.io-dev\_dev\notes\":t:"Notes" -cur_console:s1THn
+""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:"E:\local\":t:"Other" -cur_console:s2TVn
+""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:"E:\local\mojo\":t:"Mojo" -cur_console:s2THn
+""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:"E:\local\warrenshea.github.io\":t:"Prod" -cur_console:s3TVn
 ```
 
 ## Chrome
