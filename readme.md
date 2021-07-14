@@ -71,6 +71,8 @@ Settings > Perferences > Elements > [x] Show user agent shadow DOM
 
 ### Extensions
 * Pesticide
+* Stylus
+* Web Developer
 
 ## Mac OSX
 * Karabiner Elements
