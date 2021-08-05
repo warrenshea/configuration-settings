@@ -62,7 +62,8 @@ Deafult (OSX).sublime-keymap
             "greedy": true
         }
     }
-}```
+}
+```
 
 reg_replace_rules.sublime-settings
 ```json
@@ -72,7 +73,8 @@ reg_replace_rules.sublime-settings
         "command": "reg_replace",
         "args": {"replacements": ["rule_1","rule_2"]}
     }
-]```
+]
+```
 
 ## Python 3
 
