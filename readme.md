@@ -218,8 +218,8 @@ Settings > Perferences > Elements > [x] Show user agent shadow DOM
 ]
 ```
 * iTerm2 + Oh My ZSH
-  * /Users/<username>/.oh-my-zsh/themes/[bullet-train-custom.zsh-theme](bullet-train-custom.zsh-theme)
-  * /Users/<username>/.zshrc
+  * /Users/&lt;username&gt;/.oh-my-zsh/themes/[bullet-train-custom.zsh-theme](bullet-train-custom.zsh-theme)
+  * /Users/&lt;username&gt;/.zshrc
     * ZSH_THEME = "bullet-train-custom"
     * Font - Menlo + Select Use built-in powerline gylph
 
