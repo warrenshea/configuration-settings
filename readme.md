@@ -12,6 +12,7 @@
 * https://packagecontrol.io/packages/Origami
 * https://packagecontrol.io/packages/RainbowBrackets
 * https://packagecontrol.io/packages/BracketHighlighter
+* https://packagecontrol.io/packages/RegReplace
 
 ### Configuration Settings
 ```json
@@ -44,6 +45,37 @@
   "trim_trailing_white_space_on_save": true
 }
 ```
+
+### RegReplace
+Deafult (OSX).sublime-keymap
+```json
+{
+    "replacements": {
+        "rule_1": {
+            "find": "ABC",
+            "replace": "XYZ",
+            "greedy": true
+        },
+        "rule_2": {
+            "find": "DEF",
+            "replace": "ABCD",
+            "greedy": true
+        }
+    }
+}
+```
+
+reg_replace_rules.sublime-settings
+```json
+[
+    {
+        "keys": ["option+command+r"],
+        "command": "reg_replace",
+        "args": {"replacements": ["rule_1","rule_2"]}
+    }
+]
+```
+
 ## Python 3
 
 ### Packages
