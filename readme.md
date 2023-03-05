@@ -92,7 +92,7 @@ reg_replace_rules.sublime-settings
 ""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:"E:\local\warrenshea.github.io-dev":t:"Local Environment" -cur_console:s1TVn
 ""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:"E:\local\warrenshea.github.io-dev\_dev\notes\":t:"Notes" -cur_console:s1THn
 ""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:"E:\local\":t:"Other" -cur_console:s2TVn
-""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:"E:\local\mojo\":t:"Mojo" -cur_console:s2THn
+""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:"E:\local\":t:"Other" -cur_console:s2THn
 ""C:\Program Files\Git\bin\sh.exe" --login -i" -new_console:d:"E:\local\warrenshea.github.io\":t:"Prod" -cur_console:s3TVn
 ```
 
@@ -222,5 +222,8 @@ Settings > Perferences > Elements > [x] Show user agent shadow DOM
   * /Users/&lt;username&gt;/.zshrc
     * ZSH_THEME = "bullet-train-custom"
     * Font - Menlo + Select Use built-in powerline gylph
+
+* ChromeDriver
+  * /user/local/bin/chromedriver
 
 * Transmit 5
